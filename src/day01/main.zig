@@ -1,7 +1,7 @@
 const std = @import("std");
 
 const test_allocator = std.testing.allocator;
-const data = @embedFile("../data/day01.txt");
+const data = @embedFile("input.txt");
 
 pub fn main() anyerror!void {
     var count: u32 = 0;

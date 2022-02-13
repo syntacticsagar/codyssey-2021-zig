@@ -3,7 +3,7 @@ const std = @import("std");
 const test_allocator = std.testing.allocator;
 const tokenize = std.mem.tokenize;
 const split = std.mem.split;
-const data = @embedFile("../data/day02.txt");
+const data = @embedFile("input.txt");
 
 const commands = enum(u8) { forward, up, down };
 
